@@ -6,6 +6,7 @@ These tools make it easy to run LLMs without deep technical knowledge:
 
 - **[LM Studio](https://lmstudio.ai/)** – A simple desktop app to run local LLMs (supports GGUF models).
 - **[Ollama](https://ollama.com/)** – Lightweight LLM runner with built-in model downloads (`ollama run mistral`).
+- **[LocalAI](https://localai.io/)** - A open-source tool that provides a simplified interface for running various models directly on local machines
 - **[GPT4All](https://gpt4all.io/)** – A GUI-based tool for running various LLMs locally.
 
 ## 2. Using Python-Based Libraries
