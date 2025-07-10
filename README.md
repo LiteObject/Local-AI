@@ -1,36 +1,81 @@
-# How to Run LLMs Locally: Best Tools & Optimizations
-Running large language models (LLMs) locally requires a combination of hardware, software, and optimization techniques.
+# Run AI Models on Your Computer
 
-## 1. Using Pre-built Tools & UI-Based Runtimes
-These tools make it easy to run LLMs without deep technical knowledge:
+Stop paying for ChatGPT! Run powerful AI models directly on your computer for free, with complete privacy.
 
-- **[LM Studio](https://lmstudio.ai/)** – A simple desktop app to run local LLMs (supports GGUF models).
-- **[Ollama](https://ollama.com/)** – Lightweight LLM runner with built-in model downloads (`ollama run mistral`).
-- **[LocalAI](https://localai.io/)** - A open-source tool that provides a simplified interface for running various models directly on local machines
-- **[GPT4All](https://gpt4all.io/)** – A GUI-based tool for running various LLMs locally.
+## Why Run AI Locally?
 
-## 2. Using Python-Based Libraries
-For more control, you can use Python frameworks:
+- **Free** - No monthly subscriptions
+- **Private** - Your data never leaves your computer
+- **Always Available** - Works without internet
+- **Customizable** - Train models for your specific needs
 
-- **[Text Generation WebUI](https://github.com/oobabooga/text-generation-webui)** – A feature-rich web UI for running LLMs locally.
-- **[llama.cpp](https://github.com/ggerganov/llama.cpp)** – A C++-based lightweight framework for running LLaMA models using GGUF quantization.
-- **[transformers (Hugging Face)](https://huggingface.co/docs/transformers/index)** – Use with `AutoModelForCausalLM` and `bitsandbytes` for efficient model execution.
+## Step 1: Choose Your Tool
 
-## 3. Optimizing for Performance
-Since LLMs are memory-intensive, consider these optimizations:
+### For Complete Beginners
+**[LM Studio](https://lmstudio.ai/)** - Point and click interface
+1. Download and install
+2. Browse models in the app
+3. Click download, then chat
 
-- **Use Quantized Models (GGUF, GPTQ, AWQ, etc.)** – Reduce VRAM usage while maintaining good quality.
-- **Use Flash Attention & LoRA Fine-Tuning** – Improves inference speed and reduces memory usage.
-- **Enable CUDA Acceleration** – Ensures the RTX 4090 is utilized for faster inference (`--use-cuda` in llama.cpp).
+### For Command Line Users
+**[Ollama](https://ollama.com/)** - Simple commands
+```bash
+# Install (Mac/Linux)
+curl -fsSL https://ollama.com/install.sh | sh
 
-## 4. Running Large Models Efficiently
-The type of GPU you need depends on the model size and optimizations:  
+# Windows: Download from website
 
-- **4GB VRAM** – Small models (e.g., Mistral 7B with heavy quantization like 4-bit GGUF).  
-- **8GB VRAM** – Mid-sized models (e.g., LLaMA 2 7B, Mistral 7B with moderate quantization).  
-- **12GB VRAM** – Can run 7B models at full precision or 13B models with quantization.  
-- **16GB VRAM** – Good for 13B models without quantization or 30B models with offloading.  
-- **24GB+ VRAM (e.g., RTX 4090, A6000)** – Can run 30B models comfortably and even 65B models with optimizations.  
-- **Multi-GPU setups (e.g., Dual RTX 3090s, A100s, H100s)** – Required for 65B+ models at full precision.  
+# Run your first AI model
+ollama run llama3.1:8b
+```
 
-For those with lower VRAM, techniques like CPU offloading, quantization (GGUF, GPTQ, AWQ), and tensor parallelism can help run larger models.
+## Step 2: Check Your Hardware
+
+| Your Computer Has | You Can Run | Quality |
+|-------------------|-------------|---------|
+| 8GB RAM, no gaming GPU | 7B models | Good for most tasks |
+| Gaming GPU (8GB+) | 13B models | Very good |
+| High-end GPU (16GB+) | 30B+ models | Excellent |
+
+**Don't know your specs?** 
+- Windows: Right-click "This PC" → Properties
+- Mac: Apple Menu → About This Mac
+
+## Step 3: Pick Your First Model
+
+Start with these beginner-friendly models:
+
+- **llama3.1:8b** - Best all-around model
+- **phi3:mini** - Fastest, good for basic tasks
+- **codellama:7b** - Best for programming help
+
+## Step 4: Start Chatting
+
+### In LM Studio
+1. Download a model from the search tab
+2. Go to chat tab
+3. Select your model and start typing
+
+### In Ollama
+```bash
+ollama run llama3.1:8b
+>>> Hello! How can I help you today?
+```
+
+## Troubleshooting
+
+**Model runs slowly?** Try a smaller model like `phi3:mini`
+**Out of memory errors?** Your computer needs more RAM/VRAM
+**Can't install?** Check our [detailed setup guides](./SETUP_GUIDES.md)
+
+## Next Steps
+
+- [Compare Tools](./TOOL_COMPARISON.md) - Detailed comparison of options
+- [Model Guide](./MODEL_GUIDE.md) - Which models to use when
+- [Advanced Tips](./ADVANCED_TIPS.md) - Speed up and customize your setup
+
+## Need Help?
+
+- Most issues are solved by trying a smaller model
+- Check if your antivirus is blocking the installation
+- Restart your computer after installation
