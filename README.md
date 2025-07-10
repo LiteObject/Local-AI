@@ -73,6 +73,7 @@ ollama run llama3.1:8b
 - [What Are AI Models?](./WHAT_ARE_AI_MODELS.md) - Simple explanation of how AI works
 - [Compare Tools](./TOOL_COMPARISON.md) - Detailed comparison of options
 - [Model Guide](./MODEL_GUIDE.md) - Which models to use when
+- [Model Formats Explained](./MODEL_FORMATS_AND_TYPES.md) - Understanding file types and compression
 - [Advanced Features](./ADVANCED_OLLAMA_FEATURES.md) - For power users
 
 ## Need Help?
