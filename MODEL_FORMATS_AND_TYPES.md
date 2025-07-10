@@ -81,17 +81,17 @@ Imagine trying to fit a 50GB movie on your phone. You'd compress it to 2GB, righ
 ### General Purpose (Good at Everything)
 *Like a smart generalist who can help with most tasks.*
 
-- **Llama 3.1** - Meta's best all-around model (most popular)
-- **Mistral** - European-made, very efficient
-- **Qwen 2.5** - Great with multiple languages
-- **Gemma 2** - Google's contribution
+- **Llama 3.2** - Meta's latest efficient model (most popular)
+- **Qwen 2.5** - Alibaba's excellent multilingual model
+- **Mistral Nemo** - High-quality European model
+- **Gemma 2** - Google's capable model
 
 ### Programming Specialists
 *Like having a coding tutor who explains and writes code.*
 
-- **CodeLlama** - Best for learning to code
-- **StarCoder2** - Knows many programming languages
-- **DeepSeek Coder** - Great at explaining complex code
+- **Qwen 2.5 Coder** - Latest and most capable coding model
+- **CodeLlama** - Meta's reliable coding assistant
+- **DeepSeek Coder V2** - Advanced code understanding
 - **CodeGemma** - Google's coding assistant
 
 ### Chat Specialists
@@ -109,7 +109,7 @@ Imagine trying to fit a 50GB movie on your phone. You'd compress it to 2GB, righ
 - **Bakllava** - Good at describing what's in photos
 - **Moondream** - Lightweight image understanding
 
-**Beginner tip:** Start with Llama 3.1 - it's good at everything and most popular.
+**Beginner tip:** Start with Llama 3.2:3b or Qwen 2.5:7b - they're efficient and very capable.
 
 ## Which Format Should I Choose?
 
@@ -132,9 +132,9 @@ Imagine trying to fit a 50GB movie on your phone. You'd compress it to 2GB, righ
 
 1. **File format:** Look for `.gguf` files
 2. **Compression level:** Choose `Q4_K_M` (good balance)
-3. **Model size:** Start with `7B` or `8B` models
-4. **Model type:** Pick `Llama 3.1` for your first try
+3. **Model size:** Start with `3B` to `7B` models
+4. **Model type:** Pick `Llama 3.2` or `Qwen 2.5` for your first try
 
-**Example good choice:** `llama-3.1-8b-instruct-q4_k_m.gguf`
+**Example good choice:** `llama-3.2-3b-instruct-q4_k_m.gguf`
 
-This translates to: "Llama 3.1 model, 8 billion parameters, instruction-tuned, compressed to Q4_K_M level, in GGUF format" - perfect for beginners!
+This translates to: "Llama 3.2 model, 3 billion parameters, instruction-tuned, compressed to Q4_K_M level, in GGUF format" - perfect for beginners!

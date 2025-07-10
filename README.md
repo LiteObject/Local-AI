@@ -45,8 +45,9 @@ ollama run llama3.1:8b
 
 Start with these beginner-friendly models:
 
-- **llama3.1:8b** - Best all-around model
-- **phi3:mini** - Fastest, good for basic tasks
+- **llama3.2:3b** - Best all-around model (newest)
+- **phi3.5:3.8b** - Fast and efficient
+- **qwen2.5:7b** - Excellent multilingual model
 - **codellama:7b** - Best for programming help
 
 ## Step 4: Start Chatting

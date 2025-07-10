@@ -3,33 +3,37 @@
 ## For Beginners: Start Here
 
 ### Your First Model
-**llama3.1:8b** - The best all-around choice
+**llama3.2:3b** - The newest all-around choice
 - Good at conversations, writing, and basic coding
-- Works on most computers
-- Fast enough for real-time chat
+- Smaller and faster than older versions
+- Works well on most computers
 
-### If That's Too Slow
-**phi3:mini** - Smaller and faster
-- Great for basic questions and writing
-- Runs well on older computers
-- Perfect for learning
+### Alternative Options
+**phi3.5:3.8b** - Microsoft's efficient model
+- Great balance of speed and capability
+- Excellent for learning and basic tasks
+**qwen2.5:7b** - Alibaba's multilingual model
+- Excellent at multiple languages
+- Strong reasoning capabilities
 
 ## Models by Task
 
 ### General Conversation & Writing
-- **llama3.1:8b** - Best overall
-- **mistral:7b** - Good alternative
-- **gemma2:9b** - Google's model, very capable
+- **llama3.2:3b** - Latest and most efficient
+- **qwen2.5:7b** - Excellent multilingual
+- **mistral-nemo:12b** - High-quality responses
+- **gemma2:9b** - Google's capable model
 
 ### Programming Help
-- **codellama:7b** - Specialized for code
-- **deepseek-coder:6.7b** - Great at explaining code
+- **qwen2.5-coder:7b** - Latest coding specialist
+- **codellama:7b** - Meta's coding model
+- **deepseek-coder-v2:16b** - Advanced code understanding
 - **codegemma:7b** - Google's coding model
 
 ### Creative Writing
-- **llama3.1:8b** - Excellent storyteller
-- **mistral:7b** - Good for creative tasks
-- **neural-chat:7b** - Conversational and creative
+- **llama3.2:3b** - Good storyteller, efficient
+- **mistral-nemo:12b** - Excellent creative writing
+- **qwen2.5:14b** - Strong creative capabilities
 
 ## Model Sizes Explained
 
@@ -42,10 +46,10 @@ Think of model size like brain size - bigger usually means smarter, but also slo
 
 ## How to Choose
 
-1. **Start with llama3.1:8b**
-2. **Too slow?** Try phi3:mini
-3. **Need coding help?** Try codellama:7b
-4. **Want something bigger?** Try llama3.1:70b (if you have a powerful GPU)
+1. **Start with llama3.2:3b**
+2. **Want multilingual?** Try qwen2.5:7b
+3. **Need coding help?** Try qwen2.5-coder:7b
+4. **Want high quality?** Try mistral-nemo:12b (if you have 8GB+ VRAM)
 
 ## Model Names Explained
 
@@ -56,6 +60,6 @@ Model names look confusing but follow a pattern:
 
 ## Don't Overthink It
 
-- Most people are happy with **llama3.1:8b**
+- Most people are happy with **llama3.2:3b**
 - You can always try different models later
 - Switching models is easy in both LM Studio and Ollama
