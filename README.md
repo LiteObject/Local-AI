@@ -68,8 +68,9 @@ ollama run llama3.1:8b
 **Out of memory errors?** Your computer needs more RAM/VRAM
 **Can't install?** Restart your computer and check antivirus settings
 
-## Next Steps
+## Learn More
 
+- [What Are AI Models?](./WHAT_ARE_AI_MODELS.md) - Simple explanation of how AI works
 - [Compare Tools](./TOOL_COMPARISON.md) - Detailed comparison of options
 - [Model Guide](./MODEL_GUIDE.md) - Which models to use when
 - [Advanced Features](./ADVANCED_OLLAMA_FEATURES.md) - For power users
