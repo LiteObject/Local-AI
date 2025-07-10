@@ -3,7 +3,7 @@
 ## Custom Models with Modelfiles
 
 ```dockerfile
-FROM llama3.1:8b
+FROM llama3.2:8b
 SYSTEM "You are a Python coding expert."
 TEMPLATE """{{ .System }}
 User: {{ .Prompt }}
@@ -26,8 +26,8 @@ ollama list
 
 # Run different models simultaneously
 ollama serve &  # Start server
-ollama run llama3.1:8b &
-ollama run codellama:7b &
+ollama run llama3.2:8b &
+ollama run qwen2.5-coder:7b &
 ```
 
 ### API-Based Model Switching
@@ -41,8 +41,8 @@ def query_model(model, prompt):
     return response.json()
 
 # Use different models for different tasks
-code_result = query_model('codellama:7b', 'Write a Python function')
-text_result = query_model('llama3.1:8b', 'Explain this concept')
+code_result = query_model('qwen2.5-coder:7b', 'Write a Python function')
+text_result = query_model('llama3.2:8b', 'Explain this concept')
 ```
 
 ## 3. GPU Optimization

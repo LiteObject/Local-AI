@@ -3,7 +3,7 @@
 ## For Beginners: Start Here
 
 ### Your First Model
-**llama3.2:3b** - The newest all-around choice
+**llama3.2:3b** - Current all-around choice
 - Good at conversations, writing, and basic coding
 - Smaller and faster than older versions
 - Works well on most computers
@@ -12,9 +12,14 @@
 **phi3.5:3.8b** - Microsoft's efficient model
 - Great balance of speed and capability
 - Excellent for learning and basic tasks
+
 **qwen2.5:7b** - Alibaba's multilingual model
 - Excellent at multiple languages
 - Strong reasoning capabilities
+
+**gemma2:9b** - Google's capable model
+- Good performance for various tasks
+- Well-optimized and reliable
 
 ## Models by Task
 
@@ -26,14 +31,30 @@
 
 ### Programming Help
 - **qwen2.5-coder:7b** - Latest coding specialist
-- **codellama:7b** - Meta's coding model
-- **deepseek-coder-v2:16b** - Advanced code understanding
+- **deepseek-coder-v2:16b** - Advanced code understanding  
 - **codegemma:7b** - Google's coding model
+- **granite-code:8b** - IBM's reliable coding model (newer option)
 
 ### Creative Writing
 - **llama3.2:3b** - Good storyteller, efficient
 - **mistral-nemo:12b** - Excellent creative writing
 - **qwen2.5:14b** - Strong creative capabilities
+- **qwen2.5:32b** - Advanced creative writing (larger model)
+
+## Newer Models & Specialized Options
+
+### Latest Releases (2024)
+- **llama3.3:70b** - Meta's newest large model (requires powerful hardware)
+- **qwen2.5:32b** - Alibaba's larger model for complex reasoning
+- **granite-code:8b** - IBM's coding model with good performance
+- **marco-o1** - Reasoning-focused model for complex problem solving
+
+### Specialized Models
+- **nemotron:70b** - NVIDIA's model for technical tasks
+- **deepseek-r1** - Advanced reasoning and research tasks
+- **bge-large** - Specialized for embeddings and search
+
+*Note: Larger models (30B+) require significant computational resources (16GB+ RAM recommended)*
 
 ## Model Sizes Explained
 

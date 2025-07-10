@@ -26,7 +26,7 @@ curl -fsSL https://ollama.com/install.sh | sh
 # Windows: Download from website
 
 # Run your first AI model
-ollama run llama3.1:8b
+ollama run llama3.2:3b
 ```
 
 ## Step 2: Check Your Hardware
@@ -45,10 +45,13 @@ ollama run llama3.1:8b
 
 Start with these beginner-friendly models:
 
-- **llama3.2:3b** - Best all-around model (newest)
+- **llama3.2:3b** - Best all-around model (current recommendation)
 - **phi3.5:3.8b** - Fast and efficient
 - **qwen2.5:7b** - Excellent multilingual model
-- **codellama:7b** - Best for programming help
+- **qwen2.5-coder:7b** - Best for programming help
+
+**📋 [See detailed model guide →](MODEL_GUIDE.md)**
+**🆕 [Current model recommendations →](CURRENT_MODEL_RECOMMENDATIONS.md)**
 
 ## Step 4: Start Chatting
 
@@ -74,6 +77,7 @@ ollama run llama3.1:8b
 - [What Are AI Models?](./WHAT_ARE_AI_MODELS.md) - Simple explanation of how AI works
 - [Compare Tools](./TOOL_COMPARISON.md) - Detailed comparison of options
 - [Model Guide](./MODEL_GUIDE.md) - Which models to use when
+- [Current Model Recommendations](./CURRENT_MODEL_RECOMMENDATIONS.md) - Latest model updates
 - [Model Formats Explained](./MODEL_FORMATS_AND_TYPES.md) - Understanding file types and compression
 - [Advanced Features](./ADVANCED_OLLAMA_FEATURES.md) - For power users
 
