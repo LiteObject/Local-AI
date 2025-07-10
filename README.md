@@ -66,13 +66,13 @@ ollama run llama3.1:8b
 
 **Model runs slowly?** Try a smaller model like `phi3:mini`
 **Out of memory errors?** Your computer needs more RAM/VRAM
-**Can't install?** Check our [detailed setup guides](./SETUP_GUIDES.md)
+**Can't install?** Restart your computer and check antivirus settings
 
 ## Next Steps
 
 - [Compare Tools](./TOOL_COMPARISON.md) - Detailed comparison of options
 - [Model Guide](./MODEL_GUIDE.md) - Which models to use when
-- [Advanced Tips](./ADVANCED_TIPS.md) - Speed up and customize your setup
+- [Advanced Features](./ADVANCED_OLLAMA_FEATURES.md) - For power users
 
 ## Need Help?
 
