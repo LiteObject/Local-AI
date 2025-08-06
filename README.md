@@ -1,19 +1,6 @@
 # Run AI Models on Your Computer
 
-T## Step 2: Figure out what your computer can handle
-
-This is important - you can't run huge models on a potato computer. But don't worry, there are good options for everyone:
-
-| What you've got | What you can run | How good is it? |
-|-----------------|------------------|-----------------|
-| Basic laptop (8GB RAM) | 3B-7B models | Pretty decent for most stuff |
-| Gaming rig (good GPU) | 13B models | Really good, honestly |
-| Beast machine (16GB+ GPU) | 30B+ models | Scary good |
-
-**Not sure what you have?** 
-- Windows: Right-click "This PC" → Properties
-- Mac: Apple Menu → About This Mac
-- Linux: You probably already know, but `lscpu` and `free -h` if you don'ting $20/month for ChatGPT? Yeah, me too. Here's how to run these AI models on your own machine - completely free and private.
+Tired of paying $20/month for ChatGPT? Yeah, me too. Here's how to run these AI models on your own machine - completely free and private.
 
 ## Why I switched to running AI locally
 
@@ -46,17 +33,20 @@ ollama run llama3.2:3b
 
 Honestly, I'd recommend starting with LM Studio if you're new to this stuff. You can always try Ollama later.
 
-## Step 2: Check Your Hardware
+## Step 2: Figure out what your computer can handle
 
-| Your Computer Has | You Can Run | Quality |
-|-------------------|-------------|---------|
-| 8GB RAM, no gaming GPU | 7B models | Good for most tasks |
-| Gaming GPU (8GB+) | 13B models | Very good |
-| High-end GPU (16GB+) | 30B+ models | Excellent |
+This is important - you can't run huge models on a potato computer. But don't worry, there are good options for everyone:
 
-**Don't know your specs?** 
+| What you've got | What you can run | How good is it? |
+|-----------------|------------------|-----------------|
+| Basic laptop (8GB RAM) | 3B-7B models | Pretty decent for most stuff |
+| Gaming rig (good GPU) | 13B models | Really good, honestly |
+| Beast machine (16GB+ GPU) | 30B+ models | Scary good |
+
+**Not sure what you have?** 
 - Windows: Right-click "This PC" → Properties
 - Mac: Apple Menu → About This Mac
+- Linux: You probably already know, but `lscpu` and `free -h` if you don't
 
 ## Step 3: Download your first model
 
