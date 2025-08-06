@@ -1,70 +1,84 @@
-# Current Model Recommendations (Updated 2024)
+# What I'm Actually Using Right Now (August 2025)
 
-*Last updated based on Ollama model library review*
+*Last updated after checking the latest Ollama library offerings*
 
-## 🚀 Most Recommended (Current Favorites)
+## 🚀 My current go-to models
 
-### For Beginners
-- **llama3.2:3b** - Still the best starting point
-- **phi3.5:3.8b** - Microsoft's efficient model
-- **qwen2.5:7b** - Best multilingual support
+### If you're just getting started
+- **llama3.2:3b** - Still my #1 recommendation for beginners
+- **phi3.5:3.8b** - Microsoft's solid alternative  
+- **qwen2.5:7b** - Best choice if you need multiple languages
+- **smollm2:1.7b** - New lightweight option that's surprisingly capable
 
-### For Coding
-- **qwen2.5-coder:7b** - Current top coding model
-- **deepseek-coder-v2:16b** - Advanced coding (if you have resources)
-- **granite-code:8b** - IBM's reliable new option
+### For coding stuff
+- **qwen2.5-coder:7b** - This has become my daily driver for coding help
+- **deepseek-coder-v2:16b** - Amazing if you've got the hardware to run it
+- **granite3-dense:8b** - IBM's latest, really improved from granite-code
+- **starcoder2:7b** - Strong alternative for code generation
 
-### For Advanced Users
-- **qwen2.5:32b** - High performance general model
+### If you've got a powerful machine
+- **qwen2.5:32b** - Really impressive performance
 - **llama3.3:70b** - Meta's latest large model
-- **mistral-nemo:12b** - Balanced performance
+- **deepseek-r1:7b** - New reasoning-focused model that's impressive
+- **mistral-nemo:12b** - Great balance of capability and efficiency
 
-## 📊 Model Status Check
+## 📊 What's still worth using vs what's getting old
 
-### ✅ Models Still Current
-- llama3.2:3b
-- phi3.5:3.8b
-- qwen2.5:7b, :14b, :32b
-- gemma2:9b
-- qwen2.5-coder:7b
-- deepseek-coder-v2:16b
-- mistral-nemo:12b
+### ✅ Models that are still current and good
+- llama3.2:3b (my daily driver)
+- llama3.3:70b (Meta's newest, if you can run it)
+- phi3.5:3.8b (reliable and efficient)
+- qwen2.5 series (7b, 14b, 32b - all solid)
+- gemma2:9b, gemma2:27b (Google's offerings, very capable)
+- qwen2.5-coder:7b (still the best general coding model)
+- deepseek-coder-v2:16b (if you can run it)
+- deepseek-r1:7b (new reasoning model, really impressive)
+- mistral-nemo:12b (excellent quality)
+- granite3-dense:8b (IBM's improved version)
+- smollm2:1.7b (surprisingly good for its size)
 
-### 🔄 Models to Consider Replacing
-- **codellama:7b** → Consider **qwen2.5-coder:7b** or **granite-code:8b**
-- **llama3.1:8b** → Consider **llama3.2:8b** for newer features
+### 🔄 Models you should probably replace
+- **granite-code:8b** → Switch to **granite3-dense:8b** (newer version)
+- **codellama:7b** → Switch to **qwen2.5-coder:7b** or **starcoder2:7b**
+- **llama3.1:8b** → Consider **llama3.2:8b** or **llama3.3:70b** for improvements
 
-### 🆕 Notable New Additions
-- **llama3.3** series - Meta's newest release
-- **granite-code** series - IBM's coding models
-- **marco-o1** - Reasoning-focused model
-- **nemotron** series - NVIDIA's models
-- **bge-large** - Embedding/search specialist
+### 🆕 New stuff worth checking out (August 2025)
+- **deepseek-r1** series - New reasoning-focused models that are really good at complex problems
+- **granite3-dense** series - IBM's latest, much improved from the original granite models
+- **smollm2** series - Microsoft's new small models that punch above their weight
+- **starcoder2** series - Updated coding models with better performance
+- **gemma2:27b** - Google's larger Gemma model for better performance
 
-## 🎯 Quick Selection Guide
+## 🎯 Just tell me what to download
 
-**Just want to chat and learn?**
+**Want to try AI for the first time?**
 → `ollama run llama3.2:3b`
 
-**Need coding help?**
+**Need help with programming?**
 → `ollama run qwen2.5-coder:7b`
 
-**Multiple languages important?**
+**Work in multiple languages?**
 → `ollama run qwen2.5:7b`
 
-**Want the latest and greatest? (need powerful hardware)**
-→ `ollama run llama3.3:70b`
+**Got a beast machine and want the best?**
+→ `ollama run llama3.3:70b` or `ollama run deepseek-r1:32b`
 
-**Balanced performance and efficiency?**
+**Want something balanced and reliable?**
 → `ollama run mistral-nemo:12b`
 
-## 💡 Model Selection Tips
+**Need lightweight but capable?**
+→ `ollama run smollm2:1.7b`
 
-1. **Start small** - Begin with 3B-7B models
-2. **Test first** - Try models with sample prompts
-3. **Check resources** - Monitor RAM/VRAM usage
-4. **Task-specific** - Use coding models for programming
-5. **Stay updated** - Check Ollama library monthly for new releases
+**Want the latest reasoning capabilities?**
+→ `ollama run deepseek-r1:7b`
+
+## 💡 Some practical advice
+
+1. **Don't start with the biggest model** - Begin with 3B-7B, upgrade later if needed
+2. **Try the new reasoning models** - deepseek-r1 series is genuinely impressive for complex problems
+3. **Watch your resources** - Keep an eye on RAM/VRAM usage, especially at first
+4. **Use specialized models** - Coding models really are better at coding, reasoning models excel at complex problems
+5. **Check back regularly** - New models drop frequently, and some are genuinely better
 
 ---
-*This file reflects the current state of the Ollama model library and should be updated regularly as new models become available.*
+*I try to keep this updated as I test new models and see what's actually working well in practice. Last checked: August 2025*
