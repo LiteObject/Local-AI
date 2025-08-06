@@ -1,6 +1,14 @@
-# What I'm Actually Using Right Now (August 2025)
+---
+title: "Best AI Models August 2025: Latest Local AI Recommendations"
+description: "Get the latest AI model recommendations for 2025 including Llama 3.3, DeepSeek R1, SmolLM2, and Granite3. Updated monthly with current best practices."
+keywords: "best AI models August 2025, Llama 3.3, DeepSeek R1, SmolLM2, latest AI models, AI model recommendations 2025"
+---
+
+# Best AI Models August 2025: Current Recommendations for Local Installation
 
 *Last updated after checking the latest Ollama library offerings*
+
+Discover the best AI models to install locally in 2025. Get current recommendations for Llama 3.3, DeepSeek R1, Qwen 2.5, and other top-performing models for different use cases.
 
 ## 🚀 My current go-to models
 
@@ -51,25 +59,25 @@
 
 ## 🎯 Just tell me what to download
 
-**Want to try AI for the first time?**
+**🆕 Want to try AI for the first time?**
 → `ollama run llama3.2:3b`
 
-**Need help with programming?**
+**💻 Need help with programming?**
 → `ollama run qwen2.5-coder:7b`
 
-**Work in multiple languages?**
+**🌍 Work in multiple languages?**
 → `ollama run qwen2.5:7b`
 
-**Got a beast machine and want the best?**
+**🔥 Got a beast machine and want the best?**
 → `ollama run llama3.3:70b` or `ollama run deepseek-r1:32b`
 
-**Want something balanced and reliable?**
+**⚖️ Want something balanced and reliable?**
 → `ollama run mistral-nemo:12b`
 
-**Need lightweight but capable?**
+**🪶 Need lightweight but capable?**
 → `ollama run smollm2:1.7b`
 
-**Want the latest reasoning capabilities?**
+**🧠 Want the latest reasoning capabilities?**
 → `ollama run deepseek-r1:7b`
 
 ## 💡 Some practical advice

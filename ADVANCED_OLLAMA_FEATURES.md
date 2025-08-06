@@ -1,6 +1,14 @@
-# Advanced Ollama Tricks (For When You Want to Get Fancy)
+---
+title: "Advanced Ollama Features and Configuration Guide 2025"
+description: "Learn advanced Ollama features including custom Modelfiles, API integration, GPU optimization, Docker deployment, and production configuration."
+keywords: "Ollama advanced features, Ollama API, Ollama Docker, Ollama GPU optimization, Ollama Modelfiles, Ollama production setup"
+---
+
+# Advanced Ollama Features and Configuration Guide 2025
 
 *Okay, so you've got the basics down and want to see what else Ollama can do. Here's the fun stuff.*
+
+Learn advanced Ollama features including custom Modelfiles, API integration, GPU optimization, Docker deployment, and production configuration for local AI models.
 
 ## Creating custom models with Modelfiles
 
@@ -115,6 +123,27 @@ PARAMETER num_gpu 35    # How many layers to put on GPU
 This is where Ollama really shines - you can integrate it into your own apps:
 
 ### Basic REST API usage
+
+**Simple example - just copy and paste this!**
+
+```python
+# Easy version for beginners
+import requests
+
+# Ask the AI a question
+response = requests.post('http://localhost:11434/api/generate',
+    json={
+        'model': 'llama3.2:3b',
+        'prompt': 'Tell me a joke about computers',
+        'stream': False
+    })
+
+# Print what it says
+print(response.json()['response'])
+```
+
+**More advanced version for developers:**
+
 ```python
 # Simple chat completion
 import requests
@@ -192,6 +221,9 @@ export OLLAMA_MAX_LOADED_MODELS=3
 ```
 
 ### Advanced Modelfile example
+
+**Note:** This looks scary but it's just telling the model how to format conversations. You can usually ignore this and use the defaults unless you want to get fancy.
+
 ```dockerfile
 # More sophisticated model customization
 FROM llama3.1:8b
@@ -209,6 +241,8 @@ SYSTEM "You are a helpful AI assistant with a sense of humor."
 PARAMETER stop "<|eot_id|>"
 PARAMETER temperature 0.7
 ```
+
+**Translation:** This is just setting up how the AI formats its responses. The weird symbols are like formatting codes - you don't need to understand them.
 
 **Honestly:** The defaults work fine for most people. Only mess with this stuff if you have specific needs.
 

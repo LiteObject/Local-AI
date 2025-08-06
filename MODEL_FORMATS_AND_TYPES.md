@@ -1,6 +1,14 @@
-# Understanding AI Model Files (Without the Headache)
+---
+title: "AI Model File Formats Guide: GGUF, GGML, GPTQ Explained 2025"
+description: "Complete guide to AI model file formats including GGUF, GGML, GPTQ, and quantization levels. Learn which formats work best for your computer."
+keywords: "GGUF format, GGML vs GPTQ, AI model quantization, model file formats, Q4_K_M explained, AI model compression"
+---
+
+# AI Model File Formats Guide: GGUF, GGML, GPTQ Explained (2025)
 
 *Look, AI model files are like video formats - they all contain the same "movie" but packaged differently. Some work better on your phone, others on your computer. Let me break down what you actually need to know.*
+
+Complete guide to AI model file formats including GGUF, GGML, GPTQ, and quantization levels. Learn which formats work best for your computer and how to choose the right AI model files.
 
 ## What's with all these different file formats?
 
@@ -39,11 +47,28 @@ Here's the thing: uncompressed AI models are huge. We're talking 50-100GB files 
 *Think Netflix quality settings - higher = better picture but bigger download*
 
 - **Q2_K** - Smallest, lowest quality (like 240p video - rough but functional)
+  - **Example:** 7B model → ~3GB file
+  - **Use when:** You're on an old laptop with 8GB RAM and want to save space
+  
 - **Q3_K_M** - Small, decent quality (480p - acceptable for many things)
+  - **Example:** 7B model → ~4GB file  
+  - **Use when:** You want decent quality but need to save disk space
+
 - **Q4_K_M** - **← This is the sweet spot** (720p - great balance)
+  - **Example:** 7B model → ~5GB file
+  - **Use when:** You're not sure what to pick - this works for 90% of people
+  
 - **Q5_K_M** - Larger, high quality (1080p - really good)
+  - **Example:** 7B model → ~6GB file
+  - **Use when:** You have plenty of RAM and want better responses
+  
 - **Q6_K** - Large, very high quality (4K - excellent but big)
+  - **Example:** 7B model → ~8GB file
+  - **Use when:** You have 16GB+ RAM and want near-perfect quality
+  
 - **Q8_0** - Huge, near-perfect quality (like uncompressed - probably overkill)
+  - **Example:** 7B model → ~10GB file
+  - **Use when:** You're a perfectionist with tons of RAM
 
 **My advice:** Always start with Q4_K_M. It's what 90% of people use and it works great.
 
