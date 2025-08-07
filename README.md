@@ -1,16 +1,14 @@
 ---
-ti# How to Run AI Models Locally on Your Computer - Free ChatGPT Alternative
-
-Tired of paying $20/month for ChatGPT? Here's how to run these AI models on your own machine - completely free and private. Learn to install and use local AI models like Llama, Qwen, and Phi3 with step-by-step instructions.
-
-📚 **Complete documentation available in the [docs folder](./docs/)**: "How to Run AI Models Locally - Free ChatGPT Alternative 2025"
+title: "How to Run AI Models Locally - Free ChatGPT Alternative 2025"
 description: "Learn to install and run AI models like Llama, Qwen, and Phi3 on your computer for free. Step-by-step guide to local AI with LM Studio and Ollama."
 keywords: "local AI, run AI models locally, free ChatGPT alternative, Ollama, LM Studio, Llama, Qwen, local AI installation"
 ---
 
 # How to Run AI Models Locally on Your Computer - Free ChatGPT Alternative
 
-Tired of paying $ per month for ChatGPT? Here's how to run these AI models on your own machine - completely free and private. Learn to install and use local AI models like Llama, Qwen, and Phi3 with step-by-step instructions.
+Tired of paying $ every month for ChatGPT? Here's how to run these AI models on your own machine - completely free and private. Learn to install and use local AI models like Llama, Qwen, and Phi3 with step-by-step instructions.
+
+📚 **Complete documentation available in the [docs folder](./docs/)**
 
 ## Benefits of Running AI Models Locally vs Cloud Services
 
