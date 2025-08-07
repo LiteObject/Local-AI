@@ -378,6 +378,113 @@ ollama run llama3.1:8b "" --keep-alive 24h
 - [ ] Set up health checks
 - [ ] Implement proper security (don't expose to the internet without authentication)
 - [ ] Plan for model updates and rollbacks
+
+## Working with vision models (text + images)
+
+### Getting started with vision models
+The newest models can understand both text and images. This is genuinely useful:
+
+```bash
+# Download a vision model
+ollama pull llama3.2-vision:11b
+
+# Use it with an image
+ollama run llama3.2-vision:11b "What's in this image?" --image ./photo.jpg
+```
+
+### API usage with images
+```python
+import base64
+import requests
+
+def encode_image(image_path):
+    with open(image_path, "rb") as image_file:
+        return base64.b64encode(image_file.read()).decode('utf-8')
+
+def ask_about_image(image_path, question):
+    base64_image = encode_image(image_path)
+    
+    response = requests.post('http://localhost:11434/api/generate',
+        json={
+            'model': 'llama3.2-vision:11b',
+            'prompt': question,
+            'images': [base64_image]
+        })
+    
+    return response.json()
+
+# Example usage
+result = ask_about_image("screenshot.png", "Describe what you see in this screenshot")
+print(result)
+```
+
+### Practical vision model tips
+- **llama3.2-vision:11b** - Best balance of capability and resource usage
+- **llava:13b** - Alternative option, sometimes better at certain tasks
+- **llama3.2-vision:90b** - Most capable but needs serious hardware
+
+These models can:
+- Describe images and photos
+- Read text from screenshots
+- Answer questions about charts and graphs
+- Help with visual troubleshooting
+- Analyze documents and diagrams
+
+**Reality check:** Vision models need more resources than text-only models. Start with the 11B version unless you have plenty of RAM and GPU memory.
+
+## Latest models with special features (August 2025)
+
+### Function calling and tool use
+Some newer models have built-in function calling capabilities:
+
+```bash
+# Models that support function calling
+ollama run gpt-oss            # OpenAI's open models with web browsing and Python tools
+ollama run phi-4:14b          # Microsoft's reasoning model with function support
+ollama run mistral-small-3.1  # Mistral's latest with tool calling
+```
+
+### Configurable reasoning effort
+GPT-OSS allows you to control how much the model "thinks" before responding:
+
+```python
+import requests
+
+def ask_with_reasoning(question, effort="medium"):
+    response = requests.post('http://localhost:11434/api/generate',
+        json={
+            'model': 'gpt-oss',
+            'prompt': question,
+            'options': {
+                'reasoning_effort': effort  # low, medium, high
+            }
+        })
+    return response.json()
+
+# Example usage
+quick_answer = ask_with_reasoning("What's 2+2?", "low")
+complex_answer = ask_with_reasoning("Solve this complex logic puzzle...", "high")
+```
+
+### Bilingual coding models
+OpenCoder supports both English and Chinese for international development:
+
+```bash
+# English coding help
+ollama run opencoder:8b "Write a Python function to sort a list"
+
+# Chinese coding help  
+ollama run opencoder:8b "写一个Python函数来排序列表"
+```
+
+### Advanced mathematical reasoning
+Athene-V2 excels at complex mathematical tasks:
+
+```bash
+ollama run athene-v2:72b "Prove that the square root of 2 is irrational"
+```
+
+These newer models represent significant advances in local AI capabilities, bringing features that were previously only available in cloud services.
 - [ ] Document your API usage and parameters
 
 **Bottom line:** Ollama is surprisingly powerful once you dig into it. You can build some pretty sophisticated AI applications while keeping everything running on your own hardware. The learning curve isn't too steep, and the flexibility is worth it.

@@ -6,11 +6,11 @@ keywords: "local AI, run AI models locally, free ChatGPT alternative, Ollama, LM
 
 # How to Run AI Models Locally on Your Computer - Free ChatGPT Alternative
 
-Tired of paying $20/month for ChatGPT? Yeah, me too. Here's how to run these AI models on your own machine - completely free and private. Learn to install and use local AI models like Llama, Qwen, and Phi3 with step-by-step instructions.
+Tired of paying $ per month for ChatGPT? Here's how to run these AI models on your own machine - completely free and private. Learn to install and use local AI models like Llama, Qwen, and Phi3 with step-by-step instructions.
 
 ## Benefits of Running AI Models Locally vs Cloud Services
 
-Look, I was skeptical at first. But after using local AI for months, I'm never going back to paid services for most tasks. Here's why:
+I was skeptical at first. But after using local AI for months, I'm never going back to paid services for most tasks. Here's why:
 
 - **It's actually free** - No subscription fees eating into your budget
 - **Your conversations stay private** - Nothing gets sent to some company's servers
@@ -37,11 +37,11 @@ curl -fsSL https://ollama.com/install.sh | sh
 ollama run llama3.2:3b
 ```
 
-Honestly, I'd recommend starting with LM Studio if you're new to this stuff. You can always try Ollama later.
+I'd recommend starting with LM Studio if you're new to this stuff. You can always try Ollama later.
 
 ## Step 2: Check Your Computer Hardware Requirements for AI Models
 
-This is important - you can't run huge models on a potato computer. But don't worry, there are good options for everyone:
+This is important - you can't run huge models on a slow computer. But don't worry, there are good options for everyone:
 
 | What you've got | What you can run | How good is it? |
 |-----------------|------------------|-----------------|
@@ -61,12 +61,14 @@ This is important - you can't run huge models on a potato computer. But don't wo
 I've tried a bunch of these local AI models. Here are the best free ChatGPT alternatives that actually work well:
 
 - **llama3.2:3b** - Start here. It's fast, works on anything, and surprisingly good for a local AI model
-- **phi3.5:3.8b** - Microsoft's free AI model. Also pretty solid for everyday tasks
-- **qwen2.5:7b** - Great multilingual AI model if you need multiple languages
-- **qwen2.5-coder:7b** - Best free coding AI I've found for programming help
-- **smollm2:1.7b** - New lightweight local AI option that's surprisingly capable
+- **gpt-oss** - OpenAI's new open models with incredible reasoning - genuinely impressive
+- **qwen3:1.7b** - Alibaba's new lightweight model that's impressively capable 
+- **phi-4:14b** - Microsoft's new reasoning powerhouse (if you have the hardware)
+- **stable-code:3b** - New coding specialist that rivals much larger models
+- **deepcoder:14b** - Latest open-source coding champion at o3-mini level
+- **smollm2:1.7b** - Lightweight local AI option that's surprisingly capable
 
-Honestly, just start with `llama3.2:3b`. You can always download more later (and trust me, you will).
+Just start with `llama3.2:3b` or try `gpt-oss` if you want the latest and greatest. You can always download more later (and trust me, you will).
 
 **📋 [Detailed model breakdown →](MODEL_GUIDE.md)**
 **🆕 [What I'm using right now →](CURRENT_MODEL_RECOMMENDATIONS.md)**

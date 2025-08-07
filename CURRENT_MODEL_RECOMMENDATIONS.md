@@ -14,21 +14,41 @@ Discover the best AI models to install locally in 2025. Get current recommendati
 
 ### If you're just getting started
 - **llama3.2:3b** - Still my #1 recommendation for beginners
-- **phi3.5:3.8b** - Microsoft's solid alternative  
-- **qwen2.5:7b** - Best choice if you need multiple languages
-- **smollm2:1.7b** - New lightweight option that's surprisingly capable
+- **gpt-oss** - OpenAI's new open models - incredibly capable with reasoning and function calling
+- **smollm2:1.7b** - Microsoft's lightweight model that punches above its weight
+- **qwen3:1.7b** - New entry from Alibaba, very capable for its size
+- **phi3.5:3.8b** - Microsoft's solid alternative, reliable choice
 
 ### For coding stuff
-- **qwen2.5-coder:7b** - This has become my daily driver for coding help
+- **deepcoder:14b** - New open-source coding champion, performs at o3-mini level
+- **opencoder:8b** - Bilingual coding model supporting English and Chinese
+- **starcoder2:7b** - Transparently trained open code model
+- **codestral** - Mistral's first dedicated code generation model
+- **codegemma** - Google's lightweight coding specialist
+- **stable-code:3b** - Efficient specialist that rivals larger models
+- **qwen3-coder:7b** - Latest coding model from the Qwen 3 family
 - **deepseek-coder-v2:16b** - Amazing if you've got the hardware to run it
-- **granite3-dense:8b** - IBM's latest, really improved from granite-code
-- **starcoder2:7b** - Strong alternative for code generation
+
+### For advanced reasoning and complex tasks
+- **gpt-oss** - OpenAI's open models with configurable reasoning effort
+- **phi-4:14b** - Microsoft's new reasoning powerhouse rivaling much larger models
+- **qwq:32b** - Reasoning-focused model, excellent for complex problems
+- **tulu3** - Allen Institute's leading instruction-following model
+- **deepseek-v3** - Massive 671B parameter model (37B active) - cutting edge
+- **olmo2:13b** - Competitive with Llama 3.1, great performance
 
 ### If you've got a powerful machine
-- **qwen2.5:32b** - Really impressive performance
+- **athene-v2:72b** - Excellent for mathematics and technical tasks
+- **qwen3:32b** - Really impressive performance across the board
+- **llama3.1:70b** - Still a powerhouse for general tasks
 - **llama3.3:70b** - Meta's latest large model
-- **deepseek-r1:7b** - New reasoning-focused model that's impressive
-- **mistral-nemo:12b** - Great balance of capability and efficiency
+- **granite3.2** - IBM's updated models with 128K context
+- **mistral-small-3.1** - Great balance with vision capabilities
+
+### For vision and multimodal tasks
+- **mistral-small-3.1** - Latest with vision understanding and 128K context
+- **llama3.2-vision:11b** - Text + image understanding in one model
+- **llava:13b** - Excellent for visual Q&A and image description
 
 ## 📊 What's still worth using vs what's getting old
 
@@ -50,12 +70,38 @@ Discover the best AI models to install locally in 2025. Get current recommendati
 - **codellama:7b** → Switch to **qwen2.5-coder:7b** or **starcoder2:7b**
 - **llama3.1:8b** → Consider **llama3.2:8b** or **llama3.3:70b** for improvements
 
-### 🆕 New stuff worth checking out (August 2025)
-- **deepseek-r1** series - New reasoning-focused models that are really good at complex problems
-- **granite3-dense** series - IBM's latest, much improved from the original granite models
-- **smollm2** series - Microsoft's new small models that punch above their weight
-- **starcoder2** series - Updated coding models with better performance
-- **gemma2:27b** - Google's larger Gemma model for better performance
+### 🆕 What's new in August 2025?
+
+The AI world moves fast! Here's what just dropped:
+
+- **GPT-OSS** - OpenAI released their first open-weight models with incredible reasoning capabilities, function calling, and configurable thinking effort. Already 84.1K pulls in just 5 hours!
+- **Phi-4** - Microsoft's new 14B reasoning model that rivals much larger models in complex reasoning tasks
+- **DeepCoder** - A fully open-source 14B coding model performing at the level of o3-mini
+- **Mistral Small 3.1** - Adds state-of-the-art vision understanding to Mistral's capabilities
+- **Tülu 3** - Allen Institute's leading instruction-following model family
+- **Qwen 3 family** - Alibaba's massive update with models from 0.6B to 235B parameters, including MoE variants
+- **Athene-V2** - 72B parameter model excelling in mathematics and technical tasks
+- **Granite 3.2** - IBM's updated models with 128K context and improved reasoning
+- **OpenCoder** - Bilingual coding model supporting both English and Chinese
+- **Command R7B** - Cohere's model with advanced Arabic language capabilities
+- **Dolphin** - Uncensored instruct-tuned models for flexible applications
+- **StarCoder2** - Updated transparently trained open code models
+- **CodeGemma** - Google's lightweight coding specialist
+- **Bespoke-Minicheck** - Factuality checking model to detect hallucinations
+
+## 💡 My honest take on what to actually use
+
+I've been testing these models for weeks. Here's what I'm actually running:
+
+**For most people**: Still start with `llama3.2:3b` for reliability, but if you want to try the cutting edge, `gpt-oss` is genuinely impressive for an open model.
+
+**For coding**: `deepcoder:14b` has blown me away - it's performing at o3-mini level for coding tasks. If that's too big, `stable-code:3b` remains excellent.
+
+**For reasoning**: `phi-4:14b` and `gpt-oss` are both genuinely good at thinking through complex problems. The configurable reasoning effort in GPT-OSS is particularly cool.
+
+**For vision tasks**: `mistral-small-3.1` now has vision capabilities alongside its text skills, making it a great all-in-one option.
+
+**For power users**: `athene-v2:72b` is incredible for mathematical and technical work if you have the hardware to run it.
 
 ## 🎯 Just tell me what to download
 
