@@ -46,7 +46,12 @@ ollama serve &
 ollama run llama3.3:8b &
 ollama run qwen2.5-coder:7b &
 ollama run deepseek-r1:7b &
+
+# Check running models
+ollama ps
 ```
+
+In Unix-like systems (e.g., Linux, macOS), the `&` symbol at the end of a command (e.g., `ollama serve &` or `ollama run llama3:8b &`) tells the shell to run the command in the background. This means the command executes without blocking the terminal, allowing you to continue using the same terminal session for other commands.
 
 ### Switching between models via API
 ```python
