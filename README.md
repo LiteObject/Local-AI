@@ -1,5 +1,9 @@
 ---
-title: "How to Run AI Models Locally - Free ChatGPT Alternative 2025"
+ti# How to Run AI Models Locally on Your Computer - Free ChatGPT Alternative
+
+Tired of paying $20/month for ChatGPT? Here's how to run these AI models on your own machine - completely free and private. Learn to install and use local AI models like Llama, Qwen, and Phi3 with step-by-step instructions.
+
+📚 **Complete documentation available in the [docs folder](./docs/)**: "How to Run AI Models Locally - Free ChatGPT Alternative 2025"
 description: "Learn to install and run AI models like Llama, Qwen, and Phi3 on your computer for free. Step-by-step guide to local AI with LM Studio and Ollama."
 keywords: "local AI, run AI models locally, free ChatGPT alternative, Ollama, LM Studio, Llama, Qwen, local AI installation"
 ---
@@ -70,8 +74,8 @@ I've tried a bunch of these local AI models. Here are the best free ChatGPT alte
 
 Just start with `llama3.2:3b` or try `gpt-oss` if you want the latest and greatest. You can always download more later (and trust me, you will).
 
-**📋 [Detailed model breakdown →](MODEL_GUIDE.md)**
-**🆕 [What I'm using right now →](CURRENT_MODEL_RECOMMENDATIONS.md)**
+**📋 [Detailed model breakdown →](docs/MODEL_GUIDE.md)**
+**🆕 [What I'm using right now →](docs/CURRENT_MODEL_RECOMMENDATIONS.md)**
 
 ## Step 4: How to Start Using Local AI Models
 
@@ -98,12 +102,12 @@ That's it. You're now running AI on your own machine. Pretty cool, right?
 
 ## Additional Local AI Resources and Guides
 
-- [What Are AI Models?](./WHAT_ARE_AI_MODELS.md) - If you're curious how this magic works
-- [Tool Comparison](./TOOL_COMPARISON.md) - Deep dive into your options
-- [Model Guide](./MODEL_GUIDE.md) - Which models are actually good
-- [Current Favorites](./CURRENT_MODEL_RECOMMENDATIONS.md) - What I'm using lately
-- [File Formats Explained](./MODEL_FORMATS_AND_TYPES.md) - The technical stuff
-- [Advanced Ollama Tricks](./ADVANCED_OLLAMA_FEATURES.md) - For when you want to get fancy
+- [What Are AI Models?](./docs/WHAT_ARE_AI_MODELS.md) - If you're curious how this magic works
+- [Tool Comparison](./docs/TOOL_COMPARISON.md) - Deep dive into your options
+- [Model Guide](./docs/MODEL_GUIDE.md) - Which models are actually good
+- [Current Favorites](./docs/CURRENT_MODEL_RECOMMENDATIONS.md) - What I'm using lately
+- [File Formats Explained](./docs/MODEL_FORMATS_AND_TYPES.md) - The technical stuff
+- [Advanced Ollama Tricks](./docs/ADVANCED_OLLAMA_FEATURES.md) - For when you want to get fancy
 
 ## Quick Help for Local AI Setup Issues
 

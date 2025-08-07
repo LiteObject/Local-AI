@@ -1,17 +1,6 @@
 ---
 title: "Best AI Models 2025: Complete Local AI Model Comparison Guide"
-description: "Compare the best AI models for local insta## How to actually choose
-
-1. **🎯 Just start with llama3.2:3b** - seriously, stop overthinking it
-2. **🤖 Want the latest hotness?** Try gpt-oss - OpenAI's new open models with amazing reasoning
-3. **🌍 Need other languages?** Try qwen3:4b, glm4:9b (26 languages), or sailor2:8b (South-East Asia)
-4. **💻 Want coding help?** Try deepcoder:14b, stable-code:3b, starcoder2:7b, or opencoder:8b
-5. **🖼️ Want to work with images?** Grab llama3.2-vision:11b or mistral-small-3.1
-6. **🧠 Need complex reasoning?** Try phi-4:14b, gpt-oss, or qwq:32b
-7. **🚀 Got a powerful machine and want quality?** Go for athene-v2:72b or qwen3:14b
-8. **🔍 Need factuality checking?** Try bespoke-minicheck to reduce hallucinations
-
-⚠️ **Warning:** Don't download a 70B model if you only have 8GB RAM - it won't work!cluding Llama 3.2, Qwen 2.5, Phi 3.5, and DeepSeek R1. Find the perfect AI model for coding, writing, and general use."
+description: "Compare the best AI models for local installation including Llama 3.2, Qwen 2.5, Phi 3.5, and DeepSeek R1. Find the perfect AI model for coding, writing, and general use."
 keywords: "best AI models 2025, Llama 3.2, Qwen 2.5, Phi 3.5, local AI models, AI model comparison, coding AI models"
 ---
 

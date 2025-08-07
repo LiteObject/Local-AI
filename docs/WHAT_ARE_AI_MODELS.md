@@ -141,6 +141,6 @@ Now that you know what these things actually are, here's why running them on you
 
 ## Ready to dive in?
 
-Now that you understand what's under the hood, you're ready to run one yourself! Check out our [main guide](./README.md) to get started.
+Now that you understand what's under the hood, you're ready to run one yourself! Check out our [main guide](../README.md) to get started.
 
 **Bottom line:** You're about to run the same technology that powers ChatGPT, except it's running on your machine, for free, and completely private. That's pretty cool.
